@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wirna Jaya Utama</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="icon" type="image/png" href="./assets/images/wju-logo.png">
+  <style>
+    html {
+      scroll-behavior: smooth;
+      font-size: 18px;
+    }
+    .text-brand {
+      color: #e33c35;
+    }
+    .text-secondary {
+      color: #5569a2;
+    }
+    .bg-brand {
+      background-color: #CC6966;
+    }
+    .bg-secondary {
+      background-color: #5569a2;
+    }
+    .h-80-screen {
+      height: 60vh;
+    }
+    .h-20-screen {
+      height: 10vh;
+    }
+    @media (min-width: 768px) {
+      .h-80-screen {
+        height: 60vh;
+      }
+    }
+    @media (min-width: 768px) {
+      .h-20-screen {
+        height: 20vh;
+      }
+    }
+    @media (min-width: 1028px) {
+      .h-80-screen {
+        height: 80vh;
+      }
+    }
+    @media (min-width: 1028px) {
+      .h-20-screen {
+        height: 20vh;
+      }
+    }
+    .shade-gray {
+      background-image: linear-gradient(#F9FAFBcc, #F9FAFBcc);
+    }
+    .shade-dark-gray {
+      background-image: linear-gradient(#1f2937cc, #1f2937cc);
+    }
+  </style>
+</head>
+<body>
+  <img class="fixed h-screen w-screen object-cover object-center" src="./assets/images/background-layer.jpg" alt="">
+  <div class="container mx-auto px-4 sm:px-8 lg:px-12 py-4 flex flex-row justify-between bg-white shadow-md fixed top-0 right-0 left-0 z-50">
+    <a href="." class="flex flex-row">
+      <img class="h-8" src="./assets/images/wju-logo.png" alt="PT. Wirna Jaya Utama">
+      <h1 class="font-semibold px-2 tracking-wider block sm:hidden lg:block">WIRNA JAYA UTAMA</h1>
+    </a>
+    <nav class="flex flex-row text-secondary font-semibold hidden sm:block -mx-4">
+      <a href="#home" class="px-4 mx-1 hover:underline">
+        Home
+      </a>
+      <a href="#service" class="px-4 mx-1 hover:underline">
+        Service
+      </a>
+      <a href="#about-us" class="px-4 mx-1 hover:underline">
+        About Us
+      </a>
+      <a href="#contact" class="px-4 mx-1 hover:underline">
+        Contact
+      </a>
+    </nav>
+  </div>
+  <div id="home" class="container relative shadow-lg mx-auto bg-gray-100 z-10">
+    <div class="h-80-screen">
+      <img class="object-cover object-center h-full w-full" src="./assets/images/banner-home.jpg" alt="Banner Home">
+    </div>
+    <!-- HOME SECTION -->
+    <div class="flex flex-wrap -mx-px">
+      <div class="h-20-screen w-full lg:w-1/4 md:w-1/2 p-px">
+        <div class="h-full bg-center bg-cover" style="background-image: linear-gradient(rgb(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(./assets/images/construction.png);">
+          <div class="h-full flex flex-col justify-center">
+            <p class="text-white text-center text-xl font-bold tracking-widest">CONSTRUCTION</p>
+          </div>
+        </div>
+      </div>
+      <div class="h-20-screen w-full lg:w-1/4 md:w-1/2 p-px">
+        <div class="h-full bg-center bg-cover" style="background-image: linear-gradient(rgb(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(./assets/images/mechanical.png);">
+          <div class="h-full flex flex-col justify-center">
+            <p class="text-white text-center text-xl font-bold tracking-widest">MECHANICAL</p>
+          </div>
+        </div>
+      </div>
+      <div class="h-20-screen w-full lg:w-1/4 md:w-1/2 p-px">
+        <div class="h-full bg-center bg-cover" style="background-image: linear-gradient(rgb(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(./assets/images/electrical.png);">
+          <div class="h-full flex flex-col justify-center">
+            <p class="text-white text-center text-xl font-bold tracking-widest">ELECTRICAL</p>
+          </div>
+        </div>
+      </div>
+      <div class="h-20-screen w-full lg:w-1/4 md:w-1/2 p-px">
+        <div class="h-full bg-center bg-cover" style="background-image: linear-gradient(rgb(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(./assets/images/general-trading.png);">
+          <div class="h-full flex flex-col justify-center">
+            <p class="text-white text-center text-xl font-bold tracking-widest">GENERAL TRADING</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- OUR SERVICE SECTION -->
+    <div id="service" class="bg-gray-100 text-gray-800">
+      <div class="xl:px-0 lg:px-12 sm:px-8 px-4 py-16 max-w-screen-lg mx-auto">
+        <h2 class="text-center font-semibold text-3xl mb-8"><span class="text-brand">Our</span> Service</h2>
+        <p class="text-justify mb-8">
+          <span class="text-brand">Wirna Jaya Utama</span> has been in the construction business for over 10 years experience.
+          We have commitment and responsible for our costumers to oversight the construction
+          management throughout the course of building project. In other hand, our company is
+          responsible for providing all of the material, labor, equipment and services necessary
+          for the construction of the project. We also hires specialized subcontractors to
+          perform all or portions of the construction work. But When we using subcontractors,
+          <span class="text-brand">Wirna Jaya Utama</span> also responsible for the quality
+          of all work performed by any and all of the hires.
+        </p>
+        <div class="flex flex-wrap -mx-4">
+          <div class="p-4 lg:w-1/2 w-full">
+            <div class="h-72 bg-center bg-cover relative rounded-t-md shadow-md" style="background-image: url(./assets/images/new-construction.jpg);">
+              <div class="absolute bottom-0 left-0 right-0 px-8 py-4" style="background-image: linear-gradient(#ffffffaa, #ffffffaa);">
+                <h3 class="text-2xl tracking-widest font-semibold">NEW CONSTRUCTION</h3>
+              </div>
+            </div>
+          </div>
+          <div class="p-4 lg:w-1/2 w-full">
+            <div class="h-72 bg-center bg-cover relative rounded-t-md shadow-md" style="background-image: url(./assets/images/renovation.jpg);">
+              <div class="absolute bottom-0 left-0 right-0 px-8 py-4" style="background-image: linear-gradient(#ffffffaa, #ffffffaa);">
+                <h3 class="text-2xl tracking-widest font-semibold">RENOVATION</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- WE ALSO PROVIDE SECTION -->
+    <div class="bg-gray-200 text-gray-900">
+      <div class="xl:px-0 lg:px-12 px-0 py-16 max-w-screen-lg mx-auto">
+        <h2 class="text-center font-semibold text-3xl mb-8"><span class="text-brand">We</span> Also Provide</h2>
+      
+        <div class="flex flex-col lg:rounded-md shadow-md bg-gray-100 mb-8">
+          <div class="h-72 bg-center bg-cover lg:rounded-t-md relative" style="background-image: url(./assets/images/mechanical.jpg);">
+            <div class="absolute bottom-0 left-0 right-0 sm:px-8 px-4 py-4" style="background-image: linear-gradient(#ffffffaa, #ffffffaa);">
+              <h3 class="text-2xl tracking-widest font-semibold">MECHANICAL</h3>
+            </div>
+          </div>
+          <p class="text-justify px-4 sm:px-8 py-4">
+            Beside general construction service in <span class="text-brand">Wirna Jaya Utama</span> line business,
+            mechanical engineering service have been one of our core competencies.
+            While other companies may offer some construction, in- house engineering
+            or service support, only us does them all - and does them well. As a
+            single source for all of these integrated services, we believe our clients
+            will receive more benefit of specialized sustainability services, improved
+            productivity, timeliness, lower costs and a single entity accountable
+            for costs, performance and client satisfaction. <span class="text-brand">Wirna Jaya Utama</span>
+            streamlines budgets & schedules, allowing clients to capitalize on
+            efficiencies that save money & expedite delivery.
+          </p>
+        </div>
+      
+        <div class="flex flex-col lg:rounded-md shadow-md bg-gray-100 mb-8">
+          <div class="h-72 bg-center bg-cover lg:rounded-t-md relative" style="background-image: url(./assets/images/electrical.jpg);">
+            <div class="absolute bottom-0 left-0 right-0 sm:px-8 px-4 py-4" style="background-image: linear-gradient(#ffffffaa, #ffffffaa);">
+              <h3 class="text-2xl tracking-widest font-semibold">ELECTRICAL</h3>
+            </div>
+          </div>
+          <p class="text-justify px-4 sm:px-8 py-4">
+            <span class="text-brand">Wirna Jaya Utama</span> team of electrical engineers
+            apply their deep knowledge of electrical codes and fundamentals coupled with
+            their hands-on experience to design and implement cost-effective, intuitive,
+            robust solutions for electrical challenges. From a short circuit/fault current
+            analysis to an arc flash study, electrical gear upgrades to entire industrial
+            plant electrical power and motor control systems, we have the skill set,
+            knowledge base, and experience to fill your electrical needs, large or small.
+            With our engineering & sustainability expertise,
+            <span class="text-brand">Wirna Jaya Utama</span> creates collaborative &amp;
+            practical electrical solutions to protect every client's best interests and
+            budget.
+          </p>
+        </div>
+      
+        <div class="flex flex-col lg:rounded-md shadow-md bg-gray-100">
+          <div class="h-72 bg-center bg-cover lg:rounded-t-md relative" style="background-image: url(./assets/images/general-trading.jpg);">
+            <div class="absolute bottom-0 left-0 right-0 sm:px-8 px-4 py-4" style="background-image: linear-gradient(#ffffffaa, #ffffffaa);">
+              <h3 class="text-2xl tracking-widest font-semibold">GENERAL TRADING</h3>
+            </div>
+          </div>
+          <p class="text-justify px-4 sm:px-8 py-4">
+            <span class="text-brand">Wirna Jaya Utama</span> general trading are <u>businesses</u>
+            working like procurement of goods and services which are sold for <u>consumer</u> such
+            us personal or <u>government</u> purposes. We usually buy a products by request,
+            maintain a stock or a shop, and deliver products to <u>customers</u> or client.
+            Moreover, We create commercial flows, import and export products, arranging and
+            managing national or international project tradings for our costumer.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- ABOUT US SECTION -->
+    <div id="about-us" class="bg-gray-100 text-gray-800">
+      <div class="xl:px-0 lg:px-12 sm:px-8 px-4 py-16 max-w-screen-lg mx-auto">
+        <h2 class="text-center font-semibold text-3xl mb-8">About <span class="text-brand">Us</span></h2>
+        <div class="text-center mb-8">
+          <img class="sm:h-56 inline" src="./assets/images/logo-perusahaan.png" alt="Logo Perusahaan">
+        </div>
+        <p class="text-justify mb-8">
+          Establish in 2010 <span class="text-brand">WIRNA JAYA UTAMA</span> called "WJU" an Indonesia company who
+          engaged in line of business of the general contructions, mechanical,
+          electrical, supplier, and trading. Legal entity status our company when
+          establish is Commanditaire Vennootschap. Based in Bandung, WJU is devoted
+          to provide the high quality services and we also have experts with good
+          experience and knowledge to support in related field. Various improvements
+          were made in overtime to keep growing, as well as WJU dedication to
+          contribute the development of our nation by providing good services
+          throughout the country.
+        </p>
+        <p class="text-justify">
+          <span class="text-brand">Wirna Jaya Utama</span> have decide to change the legal status become limited
+          liability company. That decision to face business environment transformation
+          with a grater challenge. For that, WJU has setting up the brand new Company's
+          Vision, which is to be one of the Becoming a Reliable and Sustainable
+          Indonesian Company in the Field of Integrated Construction and General Trading
+          in Indonesia. That decision was made for develop and expand our line of
+          business towards the era global competition. On the other hand, this becomes
+          a strong indication on how the company understands and always tries to satisfy
+          spesific needs of our costumers.
+        </p>
+      </div>
+    </div>
+    <!-- VISION AND MISSION SECTION -->
+    <div class="bg-gray-200 text-gray-900">
+      <div class="py-16 max-w-screen-lg mx-auto">
+        <h2 class="text-center font-semibold text-3xl mb-8">Vision <span class="text-brand">and</span> Mission</h2>
+        <div class="lg:flex lg:px-8 xl:px-0 xl:-mx-8">
+          <div class="lg:w-1/2 lg:px-4 xl:px-8 lg:mb-0 mb-8">
+            <div class="lg:rounded-md shadow-md bg-gray-100 sm:px-8 px-4 py-8 lg:py-16">
+              <div class="mb-8 text-center">
+                <img class="h-32 inline" src="./assets/images/vision.png" alt="Vision Icon">
+              </div>
+              <h4 class="text-center font-semibold text-3xl mb-4"><span class="text-brand">Our</span> Vision</h4>
+              <p class="lg:h-48">
+                Becoming a Reliable and Sustainable Indonesian Company in the Field of Integrated Construction and General Trading
+              </p>
+            </div>
+          </div>
+          <div class="lg:w-1/2 lg:px-4 xl:px-8 lg:mb-0 mb-8">
+            <div class="lg:rounded-md shadow-md bg-gray-100 sm:px-8 px-4 py-8 lg:py-16">
+              <div class="mb-8 text-center">
+                <img class="h-32 inline" src="./assets/images/mission.png" alt="Mission Icon">
+              </div>
+              <h4 class="text-center font-semibold text-3xl mb-4"><span class="text-brand">Our</span> Mission</h4>
+              <ul class="text-left list-disc lg:h-48">
+                <li>Deliver integrated and sustainable services and products based on excellent Quality, Safety, Health &amp; Environment principles.</li>
+                <li>Give better experience with commitment and professional expert in their field who serve the best result for our costumer.</li>
+                <li>Provide collaborative and innovation services in our bussines line to achieve global competencies.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- OUR EXPERIENCE SECTION -->
+    <div class="bg-gray-300 text-gray-800 shadow-inner">
+      <div class="py-16 max-w-screen-lg mx-auto md:px-8 lg:px-12 xl:px-0">
+        <h2 class="text-center font-semibold text-3xl mb-8"><span class="text-brand">Our</span> Experience</h2>
+        <div class="flex flex-wrap md:-mx-4 justify-center">
+          <div class="lg:w-1/3 md:w-1/2 w-full sm:px-8 px-4 md:px-4 sm:py-4 py-2 text-center">
+            <div class="bg-white shadow-md rounded px-4 py-6">
+              <img class="h-36 inline object-contain object-center" src="./assets/images/projects/project-14.png">
+            </div>
+            <p class="mt-2 font-semibold">PT. Cindy Karya Tama</p>
+          </div>
+          <div class="lg:w-1/3 md:w-1/2 w-full sm:px-8 px-4 md:px-4 sm:py-4 py-2 text-center">
+            <div class="bg-white shadow-md rounded px-4 py-6">
+              <img class="h-36 inline object-contain object-center" src="./assets/images/projects/project-1.png">
+            </div>
+            <p class="mt-2 font-semibold">PT. Pindad Global Source and Trading</p>
+          </div>
+          <div class="lg:w-1/3 md:w-1/2 w-full sm:px-8 px-4 md:px-4 sm:py-4 py-2 text-center">
+            <div class="bg-white shadow-md rounded px-4 py-6">
+              <img class="h-36 inline object-contain object-center" src="./assets/images/projects/project-2.png">
+            </div>
+            <p class="mt-2 font-semibold">PT. Pindad Enjiniring Indonesia</p>
+          </div>
+          <div class="lg:w-1/3 md:w-1/2 w-full sm:px-8 px-4 md:px-4 sm:py-4 py-2 text-center">
+            <div class="bg-white shadow-md rounded px-4 py-6">
+              <img class="h-36 inline object-contain object-center" src="./assets/images/projects/project-3.png">
+            </div>
+            <p class="mt-2 font-semibold">PT. Modular Inti Konstrindo</p>
+          </div>
+          <div class="lg:w-1/3 md:w-1/2 w-full sm:px-8 px-4 md:px-4 sm:py-4 py-2 text-center">
+            <div class="bg-white shadow-md rounded px-4 py-6">
+              <img class="h-36 inline object-contain object-center" src="./assets/images/projects/project-4.jpg">
+            </div>
+            <p class="mt-2 font-semibold">Dispora Kota Bandung</p>
+          </div>
+          <div class="lg:w-1/3 md:w-1/2 w-full sm:px-8 px-4 md:px-4 sm:py-4 py-2 text-center">
+            <div class="bg-white shadow-md rounded px-4 py-6">
+              <img class="h-36 inline object-contain object-center" src="./assets/images/projects/project-5.jpg">
+            </div>
+            <p class="mt-2 font-semibold">Dinas PU Kota Bandung</p>
+          </div>
+          <div class="lg:w-1/3 md:w-1/2 w-full sm:px-8 px-4 md:px-4 sm:py-4 py-2 text-center">
+            <div class="bg-white shadow-md rounded px-4 py-6">
+              <img class="h-36 inline object-contain object-center" src="./assets/images/projects/project-6.jpg">
+            </div>
+            <p class="mt-2 font-semibold">Pemerintah Kota Bandung</p>
+          </div>
+          <div class="lg:w-1/3 md:w-1/2 w-full sm:px-8 px-4 md:px-4 sm:py-4 py-2 text-center">
+            <div class="bg-white shadow-md rounded px-4 py-6">
+              <img class="h-36 inline object-contain object-center" src="./assets/images/projects/project-8.png">
+            </div>
+            <p class="mt-2 font-semibold">Direktorat PSBT KEMENDES PDTT</p>
+          </div>
+          <div class="lg:w-1/3 md:w-1/2 w-full sm:px-8 px-4 md:px-4 sm:py-4 py-2 text-center">
+            <div class="bg-white shadow-md rounded px-4 py-6">
+              <img class="h-36 inline object-contain object-center" src="./assets/images/projects/project-9.png">
+            </div>
+            <p class="mt-2 font-semibold">UPTB Pusdalisbang BAPEDA Provinsi Jawa Barat</p>
+          </div>
+          <div class="lg:w-1/3 md:w-1/2 w-full sm:px-8 px-4 md:px-4 sm:py-4 py-2 text-center">
+            <div class="bg-white shadow-md rounded px-4 py-6">
+              <img class="h-36 inline object-contain object-center" src="./assets/images/projects/project-12.png">
+            </div>
+            <p class="mt-2 font-semibold">DisBudPar Kota Bandung</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- CONTACT US SECTION -->
+    <div id="contact" class="text-white">
+      <div class="flex flex-wrap">
+        <div class="lg:w-1/2 w-full bg-center bg-cover" style="background-image: linear-gradient(rgb(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(./assets/images/construction.png)">
+          <div class="xl:px-16 lg:px-12 sm:px-8 px-4 py-16 max-w-screen-lg mx-auto">
+            <h2 class="font-semibold text-3xl mb-4">Contact Us</h2>
+            <p class="text-lg">Address: <span class="font-semibold">Martanegara St. No.56 Lt.2, Bandung City</span></p>
+            <p class="text-lg">Phone: <span class="font-semibold">(022) 7308035</span></p>
+            <p class="text-lg">Email: <span class="font-semibold">wirnajayautama@gmail.com</span></p>
+          </div>
+        </div>
+        <div class="lg:w-1/2 w-full">
+          <div class="mapouter"><div class="gmap_canvas"><iframe width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=Jl. R.A.A. Marta Negara no 56&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://embedgooglemap.xyz/">embed google map</a></div><style>.mapouter{position:relative;text-align:right;width:100%;height:400px;}.gmap_canvas {overflow:hidden;background:none!important;width:100%;height:400px;}</style></div>
+        </div>
+      </div>
+    </div>
+    <!-- FOOTER -->
+    <div class="bg-secondary text-gray-100">
+      <div class="py-1 text-white text-center text-xs">
+        Copyright © 2020 <strong>Wirna Jaya Utama</strong>. All rights reserved.
+      </div>
+    </div>
+  </div>
+</body>
+</html>

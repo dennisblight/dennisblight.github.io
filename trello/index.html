@@ -9,11 +9,11 @@
       TrelloPowerUp.initialize({
         'card-buttons': async function(t, options){
           await new Promise((resolve) => setTimeout(resolve, 1000));
-          await fetch('https://task-public.nubela.co/assets/favicon.a83b23cc.ico');
+          const ico = await fetch('https://task-public.nubela.co/assets/favicon.a83b23cc.ico');
           const dt = new Date();
           return [{
             icon: 'https://cdn.glitch.com/1b42d7fe-bda8-4af8-a6c8-eff0cea9e08a%2Frocket-ship.png?1494946700421',
-            text: `Today: ${dt.toLocaleString()}`,
+            text: `Today: ${dt.toLocaleString()} ${ico.status}`,
           }];
         },
       });
